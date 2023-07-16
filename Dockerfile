@@ -1,4 +1,4 @@
 FROM ubuntu
 
 RUN apt-get update && \
-    apt-get install -y stress
+    apt-get install -y stress stress-ng
